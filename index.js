@@ -6,7 +6,7 @@ let impressaoContador = window.document.getElementById("contador")
 let questoes = ["Complete: seu amigo cai e quebra uma cadeira, então você...", "O que você frequentemente ouve?", "Você facilmente ama alguém?", "você sente vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
 let respostas0 =  ["Ri dele", "Tenta  ajudar", "Você entra em desespero", "ajuda ele e conserta a cadeira"]
 let respostas1 = ["Que você é bonito", "Que é estudioso", "Que pensa muito nos outros", "Que é gentil"]
-let respostas2 = ["Sim", "Razoavelmente sim", "Difícilmente, mas me esforço", "Facilmente"]
+let respostas2 = ["Com certeza, sim", "Razoavelmente sim", "Difícilmente, mas me esforço", "Facilmente"]
 let respostas3 = ["Sim, com quem me irrita/prejudica", "Sim, mas de modo inteligente", "Com um bom motivo, sim", "Não sinto, prefiro perdoar"]
 let respostas4 = [" Estratégia cuidadosa", "Coragem e ação imediata.", "Me apoiaria em meus amigos ", " Confiança na intuição "]
 let respostas5 = ["Lendo e estudando", "Explorando ideias", "Com meus amigos", "Usando o celular"]
@@ -74,10 +74,10 @@ function processarPontuacao(resposta, contadorquestao){
             grifinoria++
         }
         else if(resposta == 3){
-            corvinal++
+            sonserina++
         }
         else{
-            sonserina++
+            corvinal++
         }
     }
     else if(contadorquestao == 4){
@@ -88,11 +88,10 @@ function processarPontuacao(resposta, contadorquestao){
            corvinal++ 
         }
         else if(resposta == 3){
-            corvinal++
+            grifinoria++
         }
         else{
             lufa++
-            grifinoria++
         }
     }
     else if(contadorquestao == 5){
@@ -125,7 +124,7 @@ function processarPontuacao(resposta, contadorquestao){
     }
     else if(contadorquestao == 7){
         if(resposta == 1){
-            corvinal++
+            lufa++
         }
         else if(resposta == 2){
             grifinoria++
@@ -134,7 +133,7 @@ function processarPontuacao(resposta, contadorquestao){
             sonserina++
         }
         else{
-            lufa++
+            corvinal++
         }
     }
     else if(contadorquestao == 8){
