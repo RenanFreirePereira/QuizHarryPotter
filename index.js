@@ -3,9 +3,9 @@ respostas = window.document.querySelectorAll(".resposta")
 let questao = window.document.getElementById("questao")
 let contadorquestao = 0; 
 let impressaoContador = window.document.getElementById("contador")
-let questoes = ["Complete: seu amigo caiu de uma cadeira quebrada, então você...", "O que você frequentemente ouve?", "Você facilmente ama alguém?", "você sente vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
+let questoes = ["Complete: seu amigo cai e quebra uma cadeira, então você...", "O que você frequentemente ouve?", "Você facilmente ama alguém?", "você sente vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
 let respostas0 =  ["Ri dele", "Tenta ajudar", "Você entra em desespero", "conserta a cadeira e ajuda o amigo"]
-let respostas1 = ["Que você é bonito", "Que é estudioso", "Que pensa muito em si", "Que é gentil"]
+let respostas1 = ["Que você é bonito", "Que é estudioso", "Que pensa muito nos outros", "Que é gentil"]
 let respostas2 = ["Sim", "Razoavelmente sim", "Difícilmente", "Facilmente"]
 let respostas3 = ["Sim, muito", "Sim, de forma inteligente", "Com um bom motivo, sim", "Não"]
 let respostas4 = [" Estratégia cuidadosa", "Coragem e ação imediata.", "Me apoiaria em meus amigos ", " Confiança na intuição "]
@@ -60,7 +60,7 @@ function processarPontuacao(resposta, contadorquestao){
             corvinal++
         }
         else if(resposta == 3){
-            corvinal++
+            grifinoria++
         }
         else{
             lufa++
@@ -139,18 +139,16 @@ function processarPontuacao(resposta, contadorquestao){
     }
     else if(contadorquestao == 8){
         if(resposta == 1){
-            sonserina++
+            lufa++
         }
         else if(resposta == 2){
-            lufa++
-            sonserina++
             corvinal++
         }
         else if(resposta == 3){
-            lufa++
+              grifinoria++
         }
         else{
-            grifinoria++
+            sonserina++
         }
     }
     else if(contadorquestao == 9){
