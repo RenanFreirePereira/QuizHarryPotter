@@ -9,6 +9,8 @@
 body {
     background-color: black;
     font-family: 'Nanum Myeongjo', serif; 
+    margin: 0;
+    padding: 0;
 }
 
 .destaqueTexto {
@@ -24,7 +26,7 @@ body {
     color: aliceblue;
 }
 
-#botaoStart {
+.botaoStart {
     background-color: #9b870c; /* Cor do botão */
     color: black; /* Cor do texto do botão */
     box-shadow: 0px 0px 10px 2px #ffd700; /* Sombra amarela */
@@ -79,7 +81,8 @@ body {
         box-shadow: 0px 0px 10px 2px #5c5c5c;
         color: white;
         margin: 20vh auto;
-        height: 67vh;
+        width: 90vw;
+        height: 70vh;
         font-size: 5vw;
         font-weight: bolder;
         display: flex;
@@ -88,31 +91,28 @@ body {
         justify-content: center;
         padding: 0;
         background-color: rgb(87, 87, 87);
-        padding: 1vw;
         border-radius: 1vw;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     #questoes input{
-        font-size: 3.7vw;
+        font-size: 4vw;
     }
 
     .resposta {
         border: 0.5vw solid white;
-        width: 80vw;
-        margin-top: 5vw;
-        box-shadow: 1px 1px 4px 2px lightyellow;
+        width: 73vw;
+        margin-top: 7vw;
+        box-shadow: 1px 1px 4px 2px rgb(216, 216, 186);
         border: 0.4vw solid black;
-        cursor: pointer; 
-        
+        margin-left: 4.3vw;
     }
 
     #areaAsk {
         display: none;
         width: 100vw;
         height: 100vh;
-        background-color: rgb(0, 0, 0);
-        color: wheat;
+        
     }
 
     .chapeuSeletor {
@@ -147,7 +147,7 @@ body {
     #telaFinal{
         display: none;
         width: 80vw;
-        height: 60vh;
+        height: 80vh;
         margin: 10vh auto;
         box-shadow: 1px 1px 15px 3px white;
         color: white;
