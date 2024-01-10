@@ -221,8 +221,8 @@ function proximaQuestao(respondido){
     if(contadorquestao == 9){
         telaFinal()
     }
-
     contadorquestao++;
+    console.log(contadorquestao)
 }
 
 function telaFinal() {
