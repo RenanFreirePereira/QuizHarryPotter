@@ -3,7 +3,7 @@ respostas = window.document.querySelectorAll(".resposta")
 let questao = window.document.getElementById("questao")
 let contadorquestao = 0; 
 let impressaoContador = window.document.getElementById("contador")
-let questoes = ["Complete: seu amigo foi atacado pelo dementador, então você...", "Qual elogio você frequentemente ouve?", "Você fácilmente ama alguém?", "você senti vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
+let questoes = ["Complete: seu amigo foi atacado pelo dementador, então você...", "O que você mais escuta frequentemente?", "Você fácilmente ama alguém?", "você senti vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, qual seria sua reação?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
 let respostas0 =  ["Apenas Corre", "Corre e procura por ajuda", "Fica com muito medo e foge", "Executa o patrono e luta"]
 let respostas1 = ["Que sou bonito", "Que sou estudioso", "Que sou arrogante", "Que eu sou gentil"]
 let respostas2 = ["Sim", "Razoavelmente sim", "Difícilmente", "Facilmente"]
@@ -11,8 +11,8 @@ let respostas3 = ["Sim, muito", "Sim, de forma inteligente", "Com um bom motivo,
 let respostas4 = [" Estratégia cuidadosa", "Coragem e ação imediata.", "Me apoiaria em meus amigos ", " Confiança na intuição "]
 let respostas5 = ["Lendo e estudando", "Explorando ideias", "Com meus amigos", "Pensando em como evoluir a mim mesmo"]
 let respostas6 = ["As vezes", "Apenas quando preciso", "não me importo com mentir", "Evito, mas acabo mentindo"]
-let respostas7 = ["Muito abalado", "De certo modo abalado", "Com o tempo bem", "museu que vive de passado"]
-let respostas8 = ["Terrivelmente triste", "Triste e em pouco tempo bem", "Triste", "Arrasado (por causa de meu ego)"]
+let respostas7 = ["Muito abalado", "De certo modo abalado", "Com o tempo bem", "só museu que vive de passado"]
+let respostas8 = ["Terrivelmente triste", "Triste e em pouco tempo bem", "Triste", "Com meu ego arrasado"]
 let telaQuestoes = window.document.getElementById("areaAsk")
 let sonserina = 0
 let ganhador = 0;
@@ -268,6 +268,5 @@ function encontraMaiorIndice(num1, num2, num3, num4) {
     return indiceEscolhido;
 }
 
-console.log(encontraMaiorIndice(5, 6, 12, 12))
 
 
