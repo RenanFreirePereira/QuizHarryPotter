@@ -216,8 +216,10 @@ function proximaQuestao(respondido){
     else if(contadorquestao == 8){
         for(let cont = 0; cont < 4; cont++){
             respostas[cont].value = respostas8[cont].toUpperCase();
-            telaFinal()
         }
+    }
+    else{
+        telaFinal()
     }
 
     contadorquestao++;
