@@ -3,8 +3,8 @@ respostas = window.document.querySelectorAll(".resposta")
 let questao = window.document.getElementById("questao")
 let contadorquestao = 0; 
 let impressaoContador = window.document.getElementById("contador")
-let questoes = ["Complete: seu amigo foi atacado pelo dementador, então você...", "Qual elogio você frequentemente ouve?", "Você facilmente ama alguém?", "você sente vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
-let respostas0 =  ["Apenas Corre", "Corre e procura por ajuda", "Fica com muito medo e foge", "Executa o patrono e luta"]
+let questoes = ["Complete: seu amigo caiu de uma cadeira quebrada, então você...", "Qual elogio você frequentemente ouve?", "Você facilmente ama alguém?", "você sente vontade de fazer alguma vingança?", "Qual seria a sua abordagem ao enfrentar um desafio difícil?", "Como você prefere passar seu tempo livre?", "você mente facilmente?", "Se você terminasse com alguém, como ficaria?", "Se o seu melhor amigo se afastasse, como você ficaria?"] 
+let respostas0 =  ["Ri dele", "Tenta ajudar", "Você entra em desespero", "conserta a cadeira e ajuda o amigo"]
 let respostas1 = ["Que sou bonito", "Que sou estudioso", "Que sou arrogante", "Que eu sou gentil"]
 let respostas2 = ["Sim", "Razoavelmente sim", "Difícilmente", "Facilmente"]
 let respostas3 = ["Sim, muito", "Sim, de forma inteligente", "Com um bom motivo, sim", "Não"]
@@ -43,15 +43,13 @@ function processarPontuacao(resposta, contadorquestao){
             sonserina++
         }
         else if(resposta == 2){
-            lufa++
-            sonserina++
-            corvinal++
+            grifinoria++
         }
         else if(resposta == 3){
             lufa++
         }
         else{
-            grifinoria++
+            corvinal++
         }
     }
     else if(contadorquestao == 2){
