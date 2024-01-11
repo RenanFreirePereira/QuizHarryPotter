@@ -218,7 +218,7 @@ function proximaQuestao(respondido){
             respostas[cont].value = respostas8[cont].toUpperCase();
         }
     }
-    if(contadorquestao == 9){
+  else {
         telaFinal()
     }
     contadorquestao++;
