@@ -170,7 +170,9 @@ function processarPontuacao(resposta, contadorquestao){
 
 function proximaQuestao(respondido){
     processarPontuacao(respondido, contadorquestao)
+    if(contadorquestao < 9){
     window.document.getElementById("questao").innerText = questoes[contadorquestao].toUpperCase()
+    }
     impressaoContador.innerText = contadorquestao + 1
     if(contadorquestao == 0){
         for(let cont = 0; cont < 4; cont++){
