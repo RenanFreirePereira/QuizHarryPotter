@@ -224,6 +224,7 @@ function proximaQuestao(respondido){
         telaFinal()
     }
     contadorquestao++;
+    console.log(" ")
     console.log(contadorquestao)
 }
 
