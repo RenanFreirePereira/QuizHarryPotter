@@ -233,7 +233,7 @@ function telaFinal() {
     let telaQuestoes = window.document.getElementById("areaAsk"); 
     telaQuestoes.style.display = "none";
     telaFinalInterface.style.display = "flex";
-    ganhador = encontraMaiorIndice(grifinoria, sonserina, corvinal, lufa)
+    ganhador = encontraMaiorIndice(sonserina, grifinoria, lufa, corvinal)
     linksCasas = ["sonserina.png", "grifinoria.png", "lufa.png", "corvinal.webp"];
     nomeCasas = ["sonserina", "grifinória", "lufa-lufa", "corvinal"]
     let escritaNomeDaCasa =  window.document.getElementById("casaNome")
